@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.retokia/retokia",
+  "title": "Retokia",
+  "description": "AI product photos for fashion shops: remove background and mannequin, ghost mannequin, AI model.",
+  "version": "1.0.0",
+  "websiteUrl": "https://retokia.com/developers/mcp/",
+  "icons": [
+    {
+      "src": "https://retokia.com/wp-content/themes/moss-landing/assets/img/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.retokia.com/mcp"
+    }
+  ]
+}
